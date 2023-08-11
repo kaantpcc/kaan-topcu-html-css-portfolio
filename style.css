@@ -1,0 +1,212 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-list{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #222831;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+}
+
+.navbar-list > li{
+    float: left;
+}
+
+.navbar-list > li a{
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 1rem 2rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+li a:hover{
+    background-color: #393E46;
+    color: white;
+}
+
+#home > .container{
+    margin: 0;
+    padding: 0;
+    background-color:#222831;
+    text-align: center;
+}
+
+h1{
+    padding: 11rem 5rem 3rem 5rem;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    font-size: 5rem;
+    letter-spacing: 5px;
+}
+
+#home > .container > h2{
+    padding: 1rem 5rem 1rem 5rem;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+span{
+    text-decoration:underline;
+}
+
+.bottom-container{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+}
+
+.bottom-img{
+    position: relative;
+    padding: 0;
+    margin: 0;
+    display: block;
+}
+
+#about > .container{
+    text-align: center;
+    padding: 3rem;
+}
+
+.about-img{
+    border-radius: 100%;
+    padding: 1rem;
+}
+
+#about > .container > h2{
+    font-size: 1.77rem;
+    font-family: 'Roboto Slab', serif;
+    color: #222831;
+    padding-bottom: 1rem;
+}
+
+#about > .container > p{
+    font-family: 'Roboto', sans-serif;
+    line-height: 2;
+    width: 50%;
+    margin: auto;
+}
+
+#works > .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+    background: linear-gradient(300deg, #222831 , #393E46);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+}
+
+.tindog > a > img{
+    padding:1rem;
+    border: dashed white;
+}
+
+.tindog > h3{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+.flag > a > img{
+    padding: 1rem;
+    border: dashed white;
+}
+
+.flag > h3{
+    text-align: center;
+    color: white;
+    font-family: 'Roboto Slab', serif;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#skills h2{
+    text-align: center;
+    padding: 2rem;
+    font-family: 'Roboto Slab', serif;
+    font-size: 2rem;
+}
+
+#skills > .container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 2rem;
+}
+
+#skills > .container img{
+    padding: 1rem;
+    border: dashed #222831;
+}
+
+#skills > .container h3{
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+    text-decoration: underline;
+    font-size: 1.5rem;
+    padding-top: 1rem;
+}
+
+#contact > .container{
+    background: linear-gradient(300deg, #222831 , #393E46);
+    background-size: 180% 180%;
+    animation: gradient-animation 18s ease infinite;
+    padding: 1rem;
+    color: white;
+    text-align: center;
+    font-family: 'Roboto Slab', serif;
+    font-size: 1rem;
+}
+
+#contact > .container > a{
+    color: white;
+    text-decoration: none;
+}
+
+svg{
+    padding: 1rem;
+}
+
+@media(max-width:1200px)
+{
+
+    #about > .container > p{
+        width: 100%;
+    }
+
+    #works > .container{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .tindog > h3{
+        padding-bottom: 1rem;
+    }
+
+    #skills > .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .html-css-js,.team-player,.c-pro > h3{
+        padding-bottom: 1rem;
+    }
+
+
+}
